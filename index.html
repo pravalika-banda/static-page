@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tech.at.core</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+window.addEventListener("scroll", function() {
+  const navbar = document.querySelector(".navbar");
+  if (window.scrollY > 50) {
+    navbar.classList.add("scrolled");
+  } else {
+    navbar.classList.remove("scrolled");
+  }
+});
+</script>
+
+<body>
+  <div class="Home-page">
+    <!-- Navigation -->
+    <nav class="navbar">
+    <div class="logo">
+        <a href="index.html">
+            <img src="./Assets/tech.at.core-logo.svg" alt="Company Logo">
+        </a>
+    </div>
+    <div>
+        <ul>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About Us</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+     <div class="hero-section">
+       <div>
+        <section id="hero">
+           <h1>Enabling Human-Centric Technology</h1>
+           <p>We help businesses build human-first digital products, from idea to launch and beyond.</p>
+           <a href="contact.html" class="btn">Get in Touch</a>
+        </section>
+      </div>
+      <div>
+          <img  class="home-image" src="./Assets/Home_hero_light_mode_img.svg" alt="hero image">
+      </div>
+    </div>
+    <!--Hero section-->
+     <div class="hero-section">
+       <div>
+        <section id="hero">
+           <h1>From inception through implementation, <br/>we’ve got you covered.</h1>
+           <p>We help businesses build human-first digital products, from idea to launch and beyond.</p>
+        </section>
+      </div>
+      <div>
+          <button class="About-us-btn">About Us</button>
+      </div>
+    </div>
+
+      </div>
+    <!--support section-->
+     <div class="support-section">
+        <section id="hero">
+           <h1>Need support? Here's where we add value.</h1>
+           <p>Whether you need short-term support or a long-term partner, we've got the resources and know-how!</p>
+        </section>
+        <div class="get-in-touch-button">
+          <a href="contact.html" class="btn">Get in Touch</a>
+      </div>
+    </div>
+    <!-- Services Overview -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Discovery: Strategic planning & product roadmaps</li>
+            <li>Design: Seamless UX & visual interfaces</li>
+            <li>Engineering: Scalable web & mobile apps</li>
+            <li>App Support: Maintenance & security</li>
+            <li>AI/ML: Predictive analytics & NLP solutions</li>
+            <li>Tech Due Diligence: Security & scalability audits</li>
+        </ul>
+    </section>
+    </div>
+</body>
+</html>
