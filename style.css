@@ -124,9 +124,12 @@ body {
   padding:0;
 }
 .main-heading{
-  color:blue;
+  color:rgb(16, 16, 57);
   font-size:60px;
-  font-family:  Condensed
+  font-family:Arial sans-serif;
+}
+.sub-heading{
+  font-size: 50px;
 }
 .star-image{
   width:50px;
@@ -148,6 +151,14 @@ section {
 #contact {
   margin-top: 20px;
 }
+#services{
+  background-color:black;
+  color:white;
+  font-size:10px;
+}
+#services ul{
+  list-style-type: none;
+}
 
 /* =============================================== */
 /*  BUTTONS */
@@ -163,12 +174,8 @@ section {
   margin: 20px auto;
   display: inline-block;
 }
-.About-us-btn {
+.About-us-btn{
   margin-left:100px;
-}
-/* “Get in Touch” button spacing */
-.get-in-touch-button {
-  margin-left: 100px;
 }
 
 /* =============================================== */
