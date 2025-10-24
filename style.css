@@ -380,6 +380,12 @@ form button:hover {
   .navbar ul {
     gap: 5px;
   }
+  body{
+    padding-top:150px;
+  }
+  .star-image{
+    display: none;
+  }
 
   .navbar ul li a {
     font-size: 16px;
