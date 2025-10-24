@@ -6,17 +6,6 @@
     <title>tech.at.core</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<script>
-window.addEventListener("scroll", function() {
-  const navbar = document.querySelector(".navbar");
-  if (window.scrollY > 50) {
-    navbar.classList.add("scrolled");
-  } else {
-    navbar.classList.remove("scrolled");
-  }
-});
-</script>
-
 <body>
   <div class="Home-page">
     <!-- Navigation -->
@@ -35,11 +24,13 @@ window.addEventListener("scroll", function() {
     </div>
 </nav>
 
-    <!-- Hero Section -->
+    <!-- Hero Section-1 -->
      <div class="hero-section">
        <div>
         <section id="hero">
-           <h1>Enabling Human-Centric Technology</h1>
+           <h1 class="main-heading">Enabling 
+            <img class="star-image" src="https://images.ctfassets.net/063qu28lxjr2/DnXcSFbbvG18aBnbo2FoP/fdf659af5205ef0e066a630910e6a5da/keyboard-asterisk-1.svg"/> <br/>
+            Human-Centric <br/>Technology</h1>
            <p>We help businesses build human-first digital products, from idea to launch and beyond.</p>
            <a href="contact.html" class="btn">Get in Touch</a>
         </section>
@@ -48,7 +39,7 @@ window.addEventListener("scroll", function() {
           <img  class="home-image" src="./Assets/Home_hero_light_mode_img.svg" alt="hero image">
       </div>
     </div>
-    <!--Hero section-->
+    <!--Hero section-2-->
      <div class="hero-section">
        <div>
         <section id="hero">
@@ -57,7 +48,7 @@ window.addEventListener("scroll", function() {
         </section>
       </div>
       <div>
-          <button class="About-us-btn">About Us</button>
+          <a href="about.html" class="About-us-btn">About Us</a>
       </div>
     </div>
 
